@@ -4,7 +4,6 @@
 
 - Updates to add Auto ([@hristobakalov](https://github.com/hristobakalov))
 - Initial commit ([@hristobakalov](https://github.com/hristobakalov))
-- Initialize project using Create React App ([@hristobakalov](https://github.com/hristobakalov))
 
 #### Authors: 1
 
