@@ -20,6 +20,6 @@ import * as global from './shared/global';
 
 export { global };
 
-export {Button} from './stories/Button';
-export {Header} from './stories/Header';
-export {Page} from './stories/Page';
+export * from './stories/Button';
+export * from './stories/Header';
+export * from './stories/Page';
