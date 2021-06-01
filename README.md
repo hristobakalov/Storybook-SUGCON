@@ -1,3 +1,6 @@
+# Storybook SUGCON system design demo
+This Storybook system is used for the SUGCON demo in order to showcase how to reuse components efficiently
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
