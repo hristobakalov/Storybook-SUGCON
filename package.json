@@ -1,7 +1,7 @@
 {
-  "name": "new-app",
+  "name": "sugcon-storybook-example",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -66,6 +66,12 @@
     "@storybook/node-logger": "^6.2.9",
     "@storybook/preset-create-react-app": "^3.1.7",
     "@storybook/react": "^6.2.9",
+    "auto": "^10.29.2",
     "cross-env": "^7.0.3"
-  }
+  },
+  "description": "Storybook example for the SUGCON presentation",
+  "main": "index.js",
+  "repository": "https://github.com/hristobakalov/Storybook-SUGCON.git",
+  "author": "hristobakalov <hristobak@gmail.com>",
+  "license": "MIT"
 }
