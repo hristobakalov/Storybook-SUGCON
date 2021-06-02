@@ -13,7 +13,7 @@ export const MegaHero = (props) => {
       } = props;
       return (
         <div className= 'megahero'>
-            <Jumbotron style={{ backgroundImage: `url(${model.image.src})` }}>
+            <Jumbotron style={{ backgroundImage: `url(${model.image.value.src})` }}>
                 <Text field={model.heading} className="display-3 text-light" tag="h1" />
                 <Text field={model.lead} className="lead text-light" tag="p" />
                 <hr style={{ borderTop: '2px solid black' }} />

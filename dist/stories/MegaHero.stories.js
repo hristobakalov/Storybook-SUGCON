@@ -45,8 +45,10 @@ Default.args = {
       text: 'Go to JSS Docs'
     },
     image: {
-      src: 'https://picsum.photos/1800/400',
-      alt: 'placeholder image'
+      value: {
+        src: 'https://picsum.photos/1800/400',
+        alt: 'placeholder image'
+      }
     }
   }
 };

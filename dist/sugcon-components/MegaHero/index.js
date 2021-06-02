@@ -29,7 +29,7 @@ var MegaHero = function MegaHero(props) {
     className: "megahero"
   }, /*#__PURE__*/_react.default.createElement(_reactstrap.Jumbotron, {
     style: {
-      backgroundImage: "url(".concat(model.image.src, ")")
+      backgroundImage: "url(".concat(model.image.value.src, ")")
     }
   }, /*#__PURE__*/_react.default.createElement(_sitecoreJssReact.Text, {
     field: model.heading,
