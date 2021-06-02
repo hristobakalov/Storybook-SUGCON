@@ -3,6 +3,8 @@
   "version": "0.5.0",
   "private": false,
   "dependencies": {
+    "@sitecore-jss/sitecore-jss": "^16.0.0",
+    "@sitecore-jss/sitecore-jss-react": "^16.0.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -67,6 +69,7 @@
     "@storybook/node-logger": "^6.2.9",
     "@storybook/preset-create-react-app": "^3.1.7",
     "@storybook/react": "^6.2.9",
+    "@storybook/addon-knobs": "^6.2.9",
     "auto": "^10.29.2",
     "cross-env": "^7.0.3"
   },
