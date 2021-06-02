@@ -4,8 +4,7 @@ import { Text, RichText } from '@sitecore-jss/sitecore-jss-react';
 // Type defintitions
 import * as TYPES from '../../types';
 
-const ContentBlock = (props) => {
-    console.log(props);
+export const ContentBlock = (props) => {
     const {
         model = {},
         className = '',
@@ -17,7 +16,6 @@ const ContentBlock = (props) => {
             <RichText className="contentDescription" field={model.content} />
         </div>
       );
-   
   };
 
   ContentBlock.propTypes = {
@@ -27,4 +25,3 @@ const ContentBlock = (props) => {
     })
   };
   
-  export default ContentBlock;
