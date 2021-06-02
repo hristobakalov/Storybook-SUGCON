@@ -11,16 +11,16 @@ var _react = _interopRequireDefault(require("react"));
 
 var _addonKnobs = require("@storybook/addon-knobs");
 
-var _ContentBlock = _interopRequireDefault(require("../sugcon-components/ContentBlock"));
+var _ContentBlock = require("../sugcon-components/ContentBlock");
 
 var _default = {
   title: 'Sugcon/ContentBlock',
-  component: _ContentBlock.default
+  component: _ContentBlock.ContentBlock
 };
 exports.default = _default;
 
 var Template = function Template(args) {
-  return /*#__PURE__*/_react.default.createElement(_ContentBlock.default, args);
+  return /*#__PURE__*/_react.default.createElement(_ContentBlock.ContentBlock, args);
 };
 
 var Default = Template.bind({});

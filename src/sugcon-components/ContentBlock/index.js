@@ -24,4 +24,13 @@ export const ContentBlock = (props) => {
       content: TYPES.scStringType,
     })
   };
+
+  ContentBlock.defaultProps = {
+      model: {
+        heading: '',
+        content: '',
+      },
+    heading: '',
+    content: '',
+  };
   

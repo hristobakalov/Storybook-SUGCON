@@ -11,6 +11,8 @@ var _taggedTemplateLiteral2 = _interopRequireDefault(require("@babel/runtime/hel
 
 var _styledComponents = require("styled-components");
 
+require("bootstrap/dist/css/bootstrap.css");
+
 var _templateObject, _templateObject2;
 
 //import { color, typography } from './styles';
