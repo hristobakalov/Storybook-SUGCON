@@ -1,6 +1,6 @@
 {
   "name": "sugcon-storybook-example",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "private": false,
   "dependencies": {
     "@sitecore-jss/sitecore-jss": "^16.0.0",
