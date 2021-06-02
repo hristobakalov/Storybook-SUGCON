@@ -5,7 +5,7 @@ var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefau
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = void 0;
+exports.ContentBlock = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
@@ -19,7 +19,6 @@ function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && 
 
 // Type defintitions
 var ContentBlock = function ContentBlock(props) {
-  console.log(props);
   var _props$model = props.model,
       model = _props$model === void 0 ? {} : _props$model,
       _props$className = props.className,
@@ -36,5 +35,4 @@ var ContentBlock = function ContentBlock(props) {
   }));
 };
 
-var _default = ContentBlock;
-exports.default = _default;
+exports.ContentBlock = ContentBlock;
