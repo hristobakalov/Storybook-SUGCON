@@ -1,10 +1,10 @@
 import React from 'react';
 import { text } from '@storybook/addon-knobs';
 
-import {MegaHero}  from '../sugcon-components/MegaHero';
+import {MegaHero}  from '../../sugcon-components/MegaHero';
 
 export default {
-  title: 'Sugcon/MegaHero',
+  title: 'Sugcon/Mega Hero',
   component: MegaHero,
 };
 

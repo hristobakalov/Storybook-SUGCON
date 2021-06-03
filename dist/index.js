@@ -68,6 +68,20 @@ Object.keys(_ContentBlock).forEach(function (key) {
   });
 });
 
+var _SampleComponent = require("./sugcon-components/SampleComponent");
+
+Object.keys(_SampleComponent).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _SampleComponent[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function get() {
+      return _SampleComponent[key];
+    }
+  });
+});
+
 var _MegaHero = require("./sugcon-components/MegaHero");
 
 Object.keys(_MegaHero).forEach(function (key) {

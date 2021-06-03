@@ -1,10 +1,10 @@
 import React from 'react';
 import { text } from '@storybook/addon-knobs';
 
-import {ContentBlock}  from '../sugcon-components/ContentBlock';
+import {ContentBlock}  from '../../sugcon-components/ContentBlock';
 
 export default {
-  title: 'Sugcon/ContentBlock',
+  title: 'Sugcon/Content Block',
   component: ContentBlock,
 };
 
