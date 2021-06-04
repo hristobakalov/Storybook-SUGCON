@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Text, RichText } from '@sitecore-jss/sitecore-jss-react';
+import { Text, RichText, Image } from '@sitecore-jss/sitecore-jss-react';
 // Type defintitions
 import * as TYPES from '../../types';
 
@@ -14,6 +14,9 @@ export const ContentBlock = (props) => {
             <Text tag="h2" className="display-4" field={model.heading} />
         
             <RichText className="contentDescription" field={model.content} />
+            <div className="text-center">
+              <Image field={model.image}/>
+            </div>
         </div>
       );
   };
@@ -22,15 +25,7 @@ export const ContentBlock = (props) => {
     model: PropTypes.shape({
       heading: TYPES.scStringType,
       content: TYPES.scStringType,
+      image: TYPES.scImageType
     })
-  };
-
-  ContentBlock.defaultProps = {
-      model: {
-        heading: '',
-        content: '',
-      },
-    heading: '',
-    content: '',
   };
   
