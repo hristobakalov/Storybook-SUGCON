@@ -5,7 +5,7 @@ var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefau
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.WithImage = exports.EmptyContent = exports.Default = exports.default = void 0;
+exports.WithImage = exports.EmptyContent = exports.ContentBlockWithImage = exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
@@ -23,15 +23,21 @@ var Template = function Template(args) {
   return /*#__PURE__*/_react.default.createElement(_ContentBlock.ContentBlock, args);
 };
 
-var Default = Template.bind({});
-exports.Default = Default;
-Default.args = {
+var ContentBlockWithImage = Template.bind({});
+exports.ContentBlockWithImage = ContentBlockWithImage;
+ContentBlockWithImage.args = {
   model: {
     heading: {
-      value: (0, _addonKnobs.text)('Title', 'Title')
+      value: (0, _addonKnobs.text)('Title', 'This is the title')
     },
     content: {
       value: (0, _addonKnobs.text)('Copy', '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum viverra est orci, in rutrum massa interdum sit amet. Quisque nunc sem, accumsan a imperdiet nec, mollis sit amet arcu. Suspendisse interdum ligula ac neque interdum, id facilisis magna ornare. Nam non rhoncus felis. Sed sed commodo sem. Morbi diam lorem, pharetra in elementum id, ullamcorper id tortor. Maecenas quis gravida nibh. Curabitur cursus libero et sem elementum, in scelerisque eros cursus. Nulla ultricies eros ipsum, a hendrerit ligula semper vitae. Integer lobortis vitae lectus eget porttitor.</p><p>In malesuada pretium diam, quis elementum nulla volutpat a. Suspendisse ac condimentum ex. Nullam elit purus, consectetur sed eros quis, mattis pretium velit. Vivamus in sapien turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>')
+    },
+    image: {
+      value: {
+        src: 'https://picsum.photos/1000/400',
+        alt: 'placeholder image'
+      }
     }
   }
 };
@@ -40,7 +46,7 @@ exports.EmptyContent = EmptyContent;
 EmptyContent.args = {
   model: {
     heading: {
-      value: (0, _addonKnobs.text)('Title', 'Title')
+      value: (0, _addonKnobs.text)('Title2', 'Second Title but no content')
     },
     content: {
       value: (0, _addonKnobs.text)()

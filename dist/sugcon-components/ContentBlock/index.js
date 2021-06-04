@@ -32,15 +32,11 @@ var ContentBlock = function ContentBlock(props) {
   }), /*#__PURE__*/_react.default.createElement(_sitecoreJssReact.RichText, {
     className: "contentDescription",
     field: model.content
-  }));
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "text-center"
+  }, /*#__PURE__*/_react.default.createElement(_sitecoreJssReact.Image, {
+    field: model.image
+  })));
 };
 
 exports.ContentBlock = ContentBlock;
-ContentBlock.defaultProps = {
-  model: {
-    heading: '',
-    content: ''
-  },
-  heading: '',
-  content: ''
-};
