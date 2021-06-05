@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Text, RichText, Image } from '@sitecore-jss/sitecore-jss-react';
+import {Text, RichText, Image} from '@sitecore-jss/sitecore-jss-react';
 // Type defintitions
 import * as TYPES from '../../types';
 
@@ -17,6 +17,7 @@ export const ContentBlock = (props) => {
             <div className="text-center">
               <Image field={model.image}/>
             </div>
+
         </div>
       );
   };
